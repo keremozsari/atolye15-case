@@ -1,0 +1,63 @@
+// Media Breakpoint Variables
+$breakpoint-mobil : 375px;
+$breakpoint-mobilX : 480px;
+$breakpoint-tab-mob : 600px;
+$breakpoint-tablet : 768px;
+$breakpoint-tabletX : 992px;
+$breakpoint-desktop : 1200px;
+$breakpoint-desktopX : 1480px;
+// Media Breakpoint Variables End
+
+/***************************** Media Query Scss *****************************/
+
+@media screen and(max-width: $breakpoint-desktopX){}
+@media screen and(max-width: $breakpoint-desktop){
+
+  html{
+    font-size: 15px;
+  }
+  
+  .pricingContainer{
+    padding: 0 !important;
+}
+}
+@media screen and(max-width: $breakpoint-tabletX){
+
+  html{
+    font-size: 14px;
+  }
+
+  .pricingContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    padding: 0;
+  }
+}
+@media screen and(max-width: $breakpoint-tablet){
+
+  html{
+    font-size: 13px;
+  }
+}
+@media screen and(max-width: $breakpoint-tab-mob){
+
+  html{
+    font-size: 12.5px;
+  }
+}
+@media screen and(max-width: $breakpoint-mobilX){
+  html{
+    font-size: 12px;
+  }
+  .pricingContainer{
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+@media screen and(max-width: $breakpoint-mobil){
+  html{
+    font-size: 11px;
+  }
+}
+
+/***************************** Media Query Scss End *****************************/

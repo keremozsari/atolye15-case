@@ -1,0 +1,64 @@
+.pricingEnterprise{
+    border-radius: 16px;
+    padding: 1.56rem;
+    background: $blue;
+    display: flex;
+    flex-direction: column;
+
+    &__type{
+        padding: .625rem;
+        display: flex;
+        align-items: center;
+        &__logo{
+            margin-right: .9rem;
+            
+        }
+        &__text{
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: $white;
+        }
+    }
+
+    &__description{
+        font-size: 1rem;
+        font-weight: 400;
+        color: $white;
+        margin: .9rem 0;
+        opacity: .8;
+    }
+
+    &__price{
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 39px;
+        color: $white;
+    }
+
+    &__scope{
+        margin: 1.25rem 0;
+        &__list{
+            padding: 0;
+            &__item{
+                display: flex;
+                align-items: center;
+                padding: .9rem 0;
+                img{
+                    margin-right: .9rem;
+                }
+                span{
+                    color: $white;
+                    font-weight: 500;
+                }
+                .invalid{
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    &__button{
+        margin-top: auto;
+        width: 100%;
+    }
+}
