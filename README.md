@@ -78,4 +78,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * **NPM**
 * **React.js**
 ***
-### It contains information about me.
